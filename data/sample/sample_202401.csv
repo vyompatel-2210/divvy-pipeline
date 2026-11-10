@@ -1,0 +1,15 @@
+ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual
+GOOD001,classic_bike,2024-01-01 08:05:00,2024-01-01 08:20:00,Clark St & Elm St,TA1307000039,Streeter Dr & Grand Ave,13022,41.9029,-87.6313,41.8923,-87.6120,member
+GOOD002,electric_bike,2024-01-01 08:40:00,2024-01-01 09:00:00,Clark St & Elm St,TA1307000039,Streeter Dr & Grand Ave,13022,41.9029,-87.6313,41.8923,-87.6120,casual
+GOOD003,classic_bike,2024-01-06 10:00:00,2024-01-06 10:30:00,Streeter Dr & Grand Ave,13022,Clark St & Elm St,TA1307000039,41.8923,-87.6120,41.9029,-87.6313,casual
+GOOD004,classic_bike,2024-01-07 17:10:00,2024-01-07 17:25:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
+NOSTN01,electric_bike,2024-01-02 07:50:00,2024-01-02 08:10:00,,,Clark St & Elm St,TA1307000039,41.9000,-87.6300,41.9029,-87.6313,casual
+,classic_bike,2024-01-03 09:00:00,2024-01-03 09:10:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
+NOSTART1,classic_bike,,2024-01-03 10:10:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
+NOEND001,classic_bike,2024-01-03 11:00:00,,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
+BADTS001,classic_bike,not-a-date,2024-01-03 12:10:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
+BADTS002,classic_bike,2024-01-03 13:00:00,2024-13-45 99:00:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
+NEG00001,classic_bike,2024-01-04 12:00:00,2024-01-04 11:30:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
+DUPSAME1,classic_bike,2024-01-05 18:00:00,2024-01-05 18:10:00,Streeter Dr & Grand Ave,13022,Clark St & Elm St,TA1307000039,41.8923,-87.6120,41.9029,-87.6313,member
+DUPSAME1,classic_bike,2024-01-05 18:00:00,2024-01-05 18:10:00,Streeter Dr & Grand Ave,13022,Clark St & Elm St,TA1307000039,41.8923,-87.6120,41.9029,-87.6313,member
+,classic_bike,garbage,2024-01-08 10:00:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member

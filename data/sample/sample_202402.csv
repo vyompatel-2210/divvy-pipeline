@@ -1,0 +1,8 @@
+ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual
+GOOD003,classic_bike,2024-01-06 10:00:00,2024-01-06 10:30:00,Streeter Dr & Grand Ave,13022,Clark St & Elm St,TA1307000039,41.8923,-87.6120,41.9029,-87.6313,casual
+FEB00001,classic_bike,2024-02-03 11:00:00,2024-02-03 11:20:00,Streeter Dr & Grand Ave,13022,Wells St & Concord Ln,TA1308000050,41.8923,-87.6120,41.9121,-87.6347,casual
+FEB00002,electric_bike,2024-02-05 08:15:00,2024-02-05 08:30:00,Clark St & Elm St,TA1307000039,Wells St & Concord Ln,TA1308000050,41.9029,-87.6313,41.9121,-87.6347,member
+FEB00003,classic_bike,2024-02-06 08:45:00,2024-02-06 09:00:00,Clark St & Elm St,TA1307000039,Wells St & Concord Ln,TA1308000050,41.9029,-87.6313,41.9121,-87.6347,member
+FEB00004,classic_bike,2024-02-07 17:30:00,2024-02-07 17:50:00,Wells St & Concord Ln,TA1308000050,Clark St & Elm St,TA1307000039,41.9121,-87.6347,41.9029,-87.6313,member
+FEB00005,electric_bike,2024-02-08 09:30:00,2024-02-08 09:45:00,Clark St & Elm St,TA1307000039,,,41.9029,-87.6313,41.9100,-87.6400,casual
+NEG00002,classic_bike,2024-02-09 15:00:00,2024-02-09 14:00:00,Clark St & Elm St,TA1307000039,Clark St & Elm St,TA1307000039,41.9029,-87.6313,41.9029,-87.6313,member
